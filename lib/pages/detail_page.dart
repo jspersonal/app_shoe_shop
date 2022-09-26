@@ -22,7 +22,7 @@ class _DetailPageState extends State<DetailPage> {
       appBar: AppBar(
         backgroundColor: widget.shoeModel.color,
         elevation: 0,
-        title: Text("CATEGORIES"),
+        title: Text("CATEGORÍAS"),
         leading: IconButton(
           icon: Icon(FlutterIcons.left_open_1),
           onPressed: () {
@@ -80,7 +80,7 @@ class _DetailPageState extends State<DetailPage> {
                         ),
                         SizedBox(height: 24),
                         Text(
-                          "COLOR OPTIONS",
+                          "COLORES",
                           style: TextStyle(
                             fontWeight: FontWeight.bold,
                             fontSize: 18,
