@@ -204,7 +204,7 @@ class _DetailPageState extends State<DetailPage> {
   Widget _buildRating() {
     return Row(
       children: <Widget>[
-        RatingBar(
+        RatingBar.builder(
           initialRating: 3,
           minRating: 1,
           direction: Axis.horizontal,

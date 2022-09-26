@@ -227,19 +227,19 @@ class _HomePageState extends State<HomePage> {
                 padding: const EdgeInsets.all(8.0),
                 child: Icon(FlutterIcons.compass),
               ),
-              title: Text("data"),
+              label: "data",
             ),
             BottomNavigationBarItem(
               icon: Icon(FlutterIcons.list),
-              title: Text("data"),
+              label: "data",
             ),
             BottomNavigationBarItem(
               icon: Icon(FlutterIcons.bag),
-              title: Text("data"),
+              label: "data",
             ),
             BottomNavigationBarItem(
               icon: Icon(FlutterIcons.person_outline),
-              title: Text("data"),
+              label: "data",
             ),
           ],
         ),
